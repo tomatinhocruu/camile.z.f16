@@ -1,92 +1,26 @@
-@charset "UTF-8";
-
-body
-{
-    background-image: linear-gradient(90deg, yellow, red );
-    color: black;
-    font-size: 20pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-    text-decoration: none;
-}
-
-h1
-{   
-    background-image: linear-gradient(270deg, red, yellow );
-    background-color: aqua;
-    color: black;
-    font-size: 16pt;
-    font-family:Arial;
-    text-align: center;
-}
-
-p
-{
-    color: black;
-    font-size: 16pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center; 
-}
-
-h2
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-}
-
-h21
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: left; 
-    text-align: center;  
-}
-
-h3
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
-li
-{
-    color: black;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-}
-
-a
-{
+/* Formatação dos Títulos */
+h1 {
+    font-size: 30px;
+    font-family: Arial, sans-serif;
     color: blue;
-    font-size: 20pt;
-    font-family:Arial;
-    text-align: center;
-    text-decoration: none;
-} 
+}
 
-table
-{
-    background-color: white;
+h2 {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    color: red;
+}
+
+/* Formatação dos Parágrafos */
+p {
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
     color: black;
-    font-size: 20pt;
-    font-family:Arial;   
-    table, td, th, tfoot 
-        {
-            border: 3px solid;
-        }  
-    td {color: blue;}
-    text-align: center;  
-    margin: auto;    
 }
 
-table.table tr
-{
-    cursor.pointer;
+/* Formatação das Imagens */
+img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
 }
-
